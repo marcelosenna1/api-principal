@@ -1,8 +1,8 @@
-package com.sena.api.portal.service;
+package com.sena.api.portal.services.impl;
 
 import com.sena.api.portal.client.CarPostStoreClient;
 import com.sena.api.portal.dto.CarPostDTO;
-import com.sena.api.portal.service.impl.CarPostStoreService;
+import com.sena.api.portal.services.CarPostStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
