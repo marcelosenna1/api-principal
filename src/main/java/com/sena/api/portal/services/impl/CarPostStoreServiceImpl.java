@@ -4,9 +4,10 @@ import com.sena.api.portal.client.CarPostStoreClient;
 import com.sena.api.portal.dto.CarPostDTO;
 import com.sena.api.portal.services.CarPostStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.stereotype.Service;
 import java.util.List;
 
+@Service
 public class CarPostStoreServiceImpl implements CarPostStoreService {
 
     @Autowired
